@@ -1,0 +1,14 @@
+{
+    "_id": "{{@ system @}}",
+    "authentication": "jwt",
+    "jwt_token": "{{@ jwt @}}",
+    "operations": {
+        "list-user": {
+            "method": "GET",
+            "url": "users"
+        }
+    },
+    "type": "system:rest",
+    "url_pattern": "https://api.crmoffice.no/%s",
+    "verify_ssl": true
+}

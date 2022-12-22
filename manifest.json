@@ -1,0 +1,13 @@
+{
+  "additional_parameters": {
+    "jwt": {}
+  },
+  "auth": "api_key",
+  "auth_variant": "tripletex",
+  "datatypes": {
+    "user": {
+      "template": "templates/user.json"
+    }
+  },
+  "system-template": "templates/system.json"
+}

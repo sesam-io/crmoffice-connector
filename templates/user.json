@@ -1,0 +1,11 @@
+{
+    "_id": "{{@ system @}}-user-collect",
+    "namespaced_identifiers": false,
+    "source": {
+        "id_expression": "{{ userName }}",
+        "operation": "list-user",
+        "system": "{{@ system @}}",
+        "type": "rest"
+    },
+    "type": "pipe"
+}
