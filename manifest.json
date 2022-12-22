@@ -5,6 +5,9 @@
   "auth": "api_key",
   "auth_variant": "tripletex",
   "datatypes": {
+    "company": {
+      "template": "templates/company.json"
+    },
     "user": {
       "template": "templates/user.json"
     }

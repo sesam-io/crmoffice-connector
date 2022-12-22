@@ -1,0 +1,12 @@
+{
+    "_id": "{{@ system @}}-company-collect",
+    "namespaced_identifiers": false,
+    "source": {
+        "id_expression": "{{ id }}",
+        "operation": "list-company",
+        "payload_property": "items",
+        "system": "{{@ system @}}",
+        "type": "rest"
+    },
+    "type": "pipe"
+}

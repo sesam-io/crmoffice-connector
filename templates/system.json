@@ -3,6 +3,10 @@
     "authentication": "jwt",
     "jwt_token": "{{@ jwt @}}",
     "operations": {
+        "list-company": {
+            "method": "GET",
+            "url": "companies"
+        },
         "list-user": {
             "method": "GET",
             "url": "users"
