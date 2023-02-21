@@ -1,9 +1,15 @@
 {
   "additional_parameters": {
-    "jwt": {}
+    "token_url": {}
   },
-  "auth": "api_key",
-  "auth_variant": "tripletex",
+  "auth": "oauth2",
+  "oauth2": {
+    "login_url": "https://sesam.crmoffice.no/connect/authorize",
+    "scopes": [
+      "crmoffice", "offline_access"
+    ],
+    "token_url": "https://sesam.crmoffice.no/connect/token"
+  },
   "datatypes": {
     "company": {
       "template": "templates/company.json"
